@@ -1,0 +1,33 @@
+{
+  "name": "desafio-trybe",
+  "version": "1.0.0",
+  "description": "Projeto de desafio para treinamento de entrevista técnica na Trybe",
+  "scripts": {
+    "dev": "nodemon ./src/back-end/index.js",
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rafarello/Desafio-Tecnico-Trybe"
+  },
+  "author": "Rafarello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rafarello/Desafio-Tecnico-Trybe/issues"
+  },
+  "homepage": "https://github.com/Rafarello/Desafio-Tecnico-Trybe#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.29.4",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}

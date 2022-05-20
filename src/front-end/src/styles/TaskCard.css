@@ -1,0 +1,39 @@
+.task-card {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.task-card > p {
+    margin-top: 10px;
+}
+
+.task-card > div > p {
+    margin-top: 10px;
+}
+
+.link {
+    margin-top: 10px;
+}
+.button {
+    margin-top: 10px;
+    background: black;
+	color: whitesmoke;
+	border: none;
+	padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.button:hover {
+    background-color: rgb(245, 210, 12);
+    color: black;
+}
+
+.task-operation {
+    align-items: center;
+    right: 100px;
+}
