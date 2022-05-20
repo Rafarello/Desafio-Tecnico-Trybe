@@ -1,7 +1,7 @@
 /* eslint-disable require-jsdoc */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../styles/TaskCard.css';
 import { deleteTask } from '../services/tasksAPI';
 
@@ -15,6 +15,8 @@ function TaskCard({
     navigate('/');
   };
 
+  const handleUpdateLink = () => navigate(`/tarefas/${id}`);
+
   return (
     <div id={id} className="task-card">
       <div>
@@ -23,15 +25,18 @@ function TaskCard({
         <p>Status:{status}</p>
         <p>{createdAt}</p>
       </div>
-      <Link to={`/tarefas/${id}`} className="link">
-        <div className="task-operation">
-          <p>Atualizar</p>
-        </div>
-      </Link>
+      <button
+        className='button'
+        onClick={ handleUpdateLink }
+      >
+        Atualizar tarefa
+      </button>
       <button
         className='button'
         onClick={ handleDelete }
-      >Apagar tarefa</button>
+      >
+        Apagar tarefa
+      </button>
     </div>
   );
 }

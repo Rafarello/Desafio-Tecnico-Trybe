@@ -23,6 +23,7 @@
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    margin-right: 20px;
 }
 
 .button:hover {
@@ -32,6 +33,10 @@
 
 .task-operation {
     align-items: center;
-    right: 100px;
     margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
 }
+
