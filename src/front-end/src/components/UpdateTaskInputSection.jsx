@@ -25,7 +25,6 @@ function UpdateTaskInputSection({ task }) {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log(id);
     const updatedTask = {
       name: taskName,
       description: taskDescription,
