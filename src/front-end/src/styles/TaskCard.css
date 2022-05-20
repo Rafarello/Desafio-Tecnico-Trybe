@@ -11,9 +11,6 @@
     margin-top: 10px;
 }
 
-.link {
-    margin-top: 10px;
-}
 .button {
     margin-top: 10px;
     background: black;
@@ -36,4 +33,5 @@
 .task-operation {
     align-items: center;
     right: 100px;
+    margin-top: 10px;
 }
