@@ -4,7 +4,6 @@ const TasksService = require('../services/TasksServices');
 class TasksController {
   static async newTask(req, res) {
     const { name, description, status } = req.body;
-    console.log(req.body);
     const newTask = { name, description, status };
     const response = await TasksService.createNewTask(newTask);
     if ('error' in response) {
